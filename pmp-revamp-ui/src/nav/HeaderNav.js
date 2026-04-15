@@ -41,7 +41,7 @@ function HeaderNav({ open, setOpen }) {
             <div className={`flex gap-x-4 h-14 items-center shadow-sm`}>
                 {!open && (
                     <div className={`flex items-center ${isLoginLanguageRTL ? "pr-5" : "pl-6"}`}>
-                        <img src={process.env.PUBLIC_URL + '/mosip_icon.svg'} alt="Mosip Icon" className="w-8 h-8" />
+                        <img src={process.env.PUBLIC_URL + '/zam-identity.jpg'} alt="Mosip Icon" className="w-8 h-8" />
                         <div id='header_hamburger_open_sidenav' className="p-9 cursor-pointer">
                             <button id='hamburger_close_icon' className="min-w-5 w-5 h-5" onClick={() => setOpen(!open)}>
                                 <img alt="" src={hamburgerIcon} />
@@ -51,7 +51,7 @@ function HeaderNav({ open, setOpen }) {
                 )}
                 {open && (
                     <div className={`flex items-center w-64 gap-x-4 ${isLoginLanguageRTL ? "pr-5" : "pl-6"} h-14 shadow-md`}>
-                        <img src={process.env.PUBLIC_URL + '/mosip_icon.svg'} alt="Mosip Icon" className="w-8 h-8" />
+                        <img src={process.env.PUBLIC_URL + '/zam-identity.jpg'} alt="Mosip Icon" className="w-8 h-8" />
                         <div className={`duration-700`}>
                             <img src={side_menu_title} alt="" className="w-32 h-10" />
                         </div>

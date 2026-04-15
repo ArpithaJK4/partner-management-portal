@@ -10,7 +10,7 @@ function Footer() {
             <hr className="h-px bg-gray-200 border-0 " />
             <div className="flex py-[3%] justify-between text-xs text-gray-400">
                 <div>
-                    <p>2024 © MOSIP - {t('footer.allRightsReserved')}</p>
+                    <p>2026 © ZamIdentity - {t('footer.allRightsReserved')}</p>
                 </div>
                 <div className="flex justify-between">
                     <a id='footer_documentation_link' href="https://docs.mosip.io/1.2.0/modules/partner-management-services" target="_blank" rel="noopener noreferrer" className={`${isLoginLanguageRTL ? "ml-7" : "mr-7"} cursor-pointer`}>{t('footer.documentation')}</a>
